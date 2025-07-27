@@ -1,0 +1,15 @@
+2025-07-25 10:41:07,626 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-25 10:41:12,593 - INFO - 👀 [+] Theo doi thu muc: test_image_Alpha cho tram: Alpha
+2025-07-25 10:41:12,596 - INFO - 👀 [+] Theo doi thu muc: test_image_Beta cho tram: Beta
+2025-07-25 10:41:34,940 - INFO - 📥 [+] [Beta] Da xep hang: station_Beta_20250723_162311_5.jpg
+2025-07-25 10:41:37,601 - INFO - ✅ [+] [Beta] Da xu ly: station_Beta_20250723_162311_5.jpg | Ket qua: {'filename': 'image_Beta_20250725_104135_984993.jpg', 'detected_bikes': 3, 'locks_with_bikes': [1, 2, 3], 'plates': [], 'station': 'Beta', 'image_path': None}
+2025-07-25 10:41:37,602 - WARNING - ⚠️ Khong tim thay anh da xu ly tai None de di chuyen cho test_image_Beta\station_Beta_20250723_162311_5.jpg
+2025-07-25 10:44:02,817 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-25 10:44:07,837 - INFO - 👀 [+] Theo doi thu muc: test_image_Alpha cho tram: Alpha
+2025-07-25 10:44:07,840 - INFO - 👀 [+] Theo doi thu muc: test_image_Beta cho tram: Beta
+2025-07-25 10:44:15,412 - INFO - 📥 [+] [Beta] Da xep hang: station_Beta_20250723_162311_5.jpg
+2025-07-25 10:44:18,015 - INFO - ✅ [+] [Beta] Da xu ly: station_Beta_20250723_162311_5.jpg | Ket qua: {'filename': 'image_Beta_20250725_104416_451664.jpg', 'detected_bikes': 3, 'locks_with_bikes': [1, 2, 3], 'plates': [], 'station': 'Beta', 'image_path': 'detected_images\\Beta\\final_image_Beta_20250725_104416_451664.jpg'}
+2025-07-25 10:44:18,017 - INFO - 📤 [+] [Beta] Di chuyen anh den: test_detected_image_Beta\final_image_Beta_20250725_104416_451664.jpg
+2025-07-25 10:45:00,951 - INFO - 📥 [+] [Beta] Da xep hang: station_Beta_20250723_162311_6.jpg
+2025-07-25 10:45:08,492 - INFO - ✅ [+] [Beta] Da xu ly: station_Beta_20250723_162311_6.jpg | Ket qua: {'filename': 'image_Beta_20250725_104502_001084.jpg', 'detected_bikes': 3, 'locks_with_bikes': [1, 2, 3], 'plates': [('05', 1), ('06', 2), ('07', 3)], 'station': 'Beta', 'image_path': 'detected_images\\Beta\\final_image_Beta_20250725_104502_001084.jpg'}
+2025-07-25 10:45:08,494 - INFO - 📤 [+] [Beta] Di chuyen anh den: test_detected_image_Beta\final_image_Beta_20250725_104502_001084.jpg
