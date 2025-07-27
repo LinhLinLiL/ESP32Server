@@ -13,3 +13,48 @@
 2025-07-25 10:45:00,951 - INFO - 📥 [+] [Beta] Da xep hang: station_Beta_20250723_162311_6.jpg
 2025-07-25 10:45:08,492 - INFO - ✅ [+] [Beta] Da xu ly: station_Beta_20250723_162311_6.jpg | Ket qua: {'filename': 'image_Beta_20250725_104502_001084.jpg', 'detected_bikes': 3, 'locks_with_bikes': [1, 2, 3], 'plates': [('05', 1), ('06', 2), ('07', 3)], 'station': 'Beta', 'image_path': 'detected_images\\Beta\\final_image_Beta_20250725_104502_001084.jpg'}
 2025-07-25 10:45:08,494 - INFO - 📤 [+] [Beta] Di chuyen anh den: test_detected_image_Beta\final_image_Beta_20250725_104502_001084.jpg
+2025-07-27 21:26:45,349 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-07-27 21:26:47,429 - INFO - 👀 [+] Theo doi thu muc: test_image_Alpha cho tram: Alpha
+2025-07-27 21:26:47,431 - INFO - 👀 [+] Theo doi thu muc: test_image_Beta cho tram: Beta
+2025-07-27 21:27:07,109 - INFO - 📥 [+] [Beta] Da xep hang: station_Beta_20250723_162311_6.jpg
+2025-07-27 21:28:21,526 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<process_image_queue() done, defined at D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\test_from_folder.py:79> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\server.py", line 88, in send_to_esp32
+    s.connect((ESP32_IP, ESP32_PORT))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\test_from_folder.py", line 168, in <module>
+    asyncio.run(main())
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2042, in _run_once
+    handle._run()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\test_from_folder.py", line 97, in process_image_queue
+    result = await process_image_bytes(data, station=station)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\server.py", line 236, in process_image_bytes
+    if send_to_esp32(text, lock_num):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\FolderBackup\School\Semester_9\IOP490\Project\ESP32Server\server.py", line 85, in send_to_esp32
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 240, in __exit__
+    def __exit__(self, *args):
+    
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt

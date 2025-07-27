@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs & DB
+*.log
+*.db
+
+# Model weights
+*.pt
+
+# Images
+received_images/
+test_images/
+test_detected_image_Alpha/
+test_detected_image_Beta/
+
+# VSCode
+.vscode/
