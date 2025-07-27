@@ -3,6 +3,7 @@ cách clone git
 git clone --recurse-submodules https://github.com/LinhLinLiL/ESP32Server.git
  2. nếu đã clone rồi 
  git submodule update --init --recursive
+3. các chức năng trong server  
 Hệ thống nhận diện xe đạp và biển số
 Hệ thống sử dụng ESP32-CAM gửi ảnh đến server FastAPI, server xử lý ảnh (YOLO, OCR) và gửi biển số qua TCP đến ESP32 để kiểm tra và cập nhật Firebase.
 Yêu cầu
