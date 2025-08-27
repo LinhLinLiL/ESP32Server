@@ -58,3 +58,12 @@ Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
     raise KeyboardInterrupt()
 KeyboardInterrupt
+2025-08-25 22:44:11,532 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-25 22:44:13,199 - INFO - 👀 [+] Theo doi thu muc: test_image_Alpha cho tram: Alpha
+2025-08-25 22:44:13,200 - INFO - 👀 [+] Theo doi thu muc: test_image_Beta cho tram: Beta
+2025-08-27 09:28:32,272 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-27 09:28:34,177 - INFO - 👀 [+] Theo dõi thư mục: test_image_Alpha cho trạm: Alpha
+2025-08-27 09:28:34,179 - INFO - 👀 [+] Theo dõi thư mục: test_image_Beta cho trạm: Beta
+2025-08-27 09:28:50,540 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-08-27 09:28:52,514 - INFO - 👀 [+] Theo doi thu muc: test_image_Alpha cho tram: Alpha
+2025-08-27 09:28:52,516 - INFO - 👀 [+] Theo doi thu muc: test_image_Beta cho tram: Beta
